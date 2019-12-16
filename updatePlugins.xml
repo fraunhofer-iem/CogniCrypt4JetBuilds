@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+  <!-- 
+    Each <plugin> element describes one plugin in the repository. Required.
+    id - used by JetBrains IDEs to uniquely identify a plugin. Required. Must match <id> in plugin.xml
+    url - path to download the plugin JAR/ZIP file. Required. Must be HTTPS
+    version - version of this plugin. Required. Must match <version> in plugin.xml
+  -->
+  <plugin id="de.awesome.plugin" url="https://raw.githubusercontent.com/fraunhofer-iem/CogniCrypt4JetBuilds/master/TODO" version="0.2.5">
+	<name>Awesome Plugin</name>
+	<!--
+      The <idea-version> element must match the same element in plugin.xml. Required.
+    -->
+    <idea-version since-build="191" until-build="193.*" />
+	<description>This plugin is awesome</description>
+	<change-notes>Added cool feature</change-notes>
+  </plugin>
+</plugins>
