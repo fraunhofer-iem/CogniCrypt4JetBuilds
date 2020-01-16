@@ -6,13 +6,15 @@
     url - path to download the plugin JAR/ZIP file. Required. Must be HTTPS
     version - version of this plugin. Required. Must match <version> in plugin.xml
   -->
-  <plugin id="de.awesome.plugin" url="https://raw.githubusercontent.com/fraunhofer-iem/CogniCrypt4JetBuilds/master/TODO" version="0.2.5">
-	<name>Awesome Plugin</name>
+  <plugin id="de.fraunhofer.iem.icognicrypt" url="https://github.com/fraunhofer-iem/CogniCrypt4JetBuilds/raw/master/builds/icognicrypt-0.2.5.1.zip" version="0.2.5.1">
+	<name>CogniCrypt</name>
 	<!--
       The <idea-version> element must match the same element in plugin.xml. Required.
     -->
-    <idea-version since-build="191" until-build="193.*" />
-	<description>This plugin is awesome</description>
-	<change-notes>Added cool feature</change-notes>
+    <idea-version since-build="191" until-build="193.*"/>
+	<description>
+      &lt;em&gt;CogniCrypt&lt;em&gt; is an IntelliJ IDEA and Android Studio plugin that supports Java developers in using cryptographic APIs.
+    </description>
+	<change-notes>Initial Release</change-notes>
   </plugin>
 </plugins>
