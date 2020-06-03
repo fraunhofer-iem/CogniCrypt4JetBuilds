@@ -6,15 +6,17 @@
     url - path to download the plugin JAR/ZIP file. Required. Must be HTTPS
     version - version of this plugin. Required. Must match <version> in plugin.xml
   -->
-  <plugin id="de.fraunhofer.iem.icognicrypt" url="https://github.com/fraunhofer-iem/CogniCrypt4JetBuilds/raw/master/builds/icognicrypt-0.2.5.1.zip" version="0.2.5.1">
+  <plugin id="de.fraunhofer.iem.icognicrypt" url="https://github.com/fraunhofer-iem/CogniCrypt4JetBuilds/raw/master/builds/icognicrypt-0.2.5.2.zip" version="0.2.5.2">
 	<name>CogniCrypt</name>
 	<!--
       The <idea-version> element must match the same element in plugin.xml. Required.
     -->
-    <idea-version since-build="191" until-build="193.*"/>
+    <idea-version since-build="191" until-build="202.*"/>
 	<description>
       &lt;em&gt;CogniCrypt&lt;em&gt; is an IntelliJ IDEA and Android Studio plugin that supports Java developers in using cryptographic APIs.
     </description>
-	<change-notes>Initial Release</change-notes>
+	  <change-notes>
+		  &lt;ul&gt;&lt;li&gt;Added Support for IntelliJ 2020.2 and Android Studio 4&lt;/li&gt;&lt;li&gt;Updated CrySL rules for JCA library to 1.5.1&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;b&gt;If you are updating from a previous version you might need to change the CrySL rules path in Settings!&lt;/b&gt;A valid path should look like this:&lt;em&gt;%USERPROFILE%\.AndroidStudio4.0\config\plugins\icognicrypt\lib\CrySLRules\JavaCryptographicArchitecture&lt;/em&gt;&lt;/p&gt; 
+	  </change-notes>
   </plugin>
 </plugins>
